@@ -38,7 +38,7 @@ class SolarSystem
       @get_planet = gets.chomp.downcase.capitalize # for formatting
 
       # let user know if there will be assigned stats
-      if ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"].include?(@get_planet)
+      if ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"].include?(@get_planet)
         print "  #{@get_planet} has stats to see!"
       elsif @get_planet == "pluto"
         print "  #{@get_planet}'s a dwarf so no stats."
